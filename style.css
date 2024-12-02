@@ -17,7 +17,7 @@
 @font-face
 {
     font-family: 'Bufalo';
-    src:url('/media/fonts/Buffalo Nickel') format('truetype')
+    src:url('/media/fonts/fonts/Buffalo\ Nickel.ttf') format('truetype')
 }
 /* Main elements of the page */
 
@@ -49,7 +49,7 @@ header {
     display: inline-block;
 }
 header h1 {
-    font-family:"Bufallo", serif;
+    font-family:'Bufalo', serif;
     font-size: 2.5em;
     font-weight: normal;
 }

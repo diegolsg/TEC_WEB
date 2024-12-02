@@ -55,6 +55,23 @@
            </aside>
         </section>
         <hr>
+        <section id="interactive_exercises">
+          <h2>Interactive Exercises</h2>
+          <button onclick="abrirModal('permuta')">Ejercicio 1: Permutacion de variable</button>
+          <button onclick="abrirModal('cuenta')">Ejercicio 2: Contador</button>
+          <button onclick="abrirModal('verifica')">Ejercicio 3: Verificación de número</button>
+        </section>
+  
+        <!-- Modal -->
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="cerrarModal()">&times;</span>
+            <div id="modal-body">
+              <!-- Contenido dinámico generado con JavaScript -->
+            </div>
+          </div>
+        </div>
+  
         <footer>
            <div id="foot-tweet">
                <h1>My last tweet</h1>
@@ -86,6 +103,6 @@
         </footer>
 
      </div>
-
+     <script src="ejercios.js"></script>
   </body>
 </html>
